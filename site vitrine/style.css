@@ -46,6 +46,7 @@ nav h1{
 	color: #717171;
 	font-family: 'Playfair display',sans-serif;
 	font-size: 30px;
+	box-shadow: 1px 4px 6px 7px black;
 }
 
 nav .onglets{
@@ -85,6 +86,7 @@ margin-top: 20px;
 font-size: 20px;
 text-align: center;
 border-bottom:1px solid #fff;
+box-shadow: 1px 4px 6px 7px black;
 }
 header button
 {
