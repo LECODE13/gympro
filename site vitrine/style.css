@@ -1,0 +1,204 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+ html{
+ 	scroll-behavior:smooth; 
+ }
+body
+{
+	margin:0;
+	padding: 0;
+	font-family:'Montserrat',sans-serif;
+}
+.logo
+{
+padding: 0;
+margin: 0;
+color: blue;
+position: relative;
+font-size: 20px;
+}
+.logo span
+{
+	color: red;
+	font-size: 35px;
+	background: blue;
+	border: 10PX/20px solid red;
+	text-decoration: italic;
+	text-transform: uppercase;
+	border-radius: 15px;
+	
+
+}
+
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid #6f6f6f;
+	border-top: 5px solid #6f6f6f;
+
+}
+
+nav h1{
+	color: #717171;
+	font-family: 'Playfair display',sans-serif;
+	font-size: 30px;
+}
+
+nav .onglets{
+	margin-top: 3px;
+	margin-left: 300px;
+}
+
+nav .onglets   a {
+	text-decoration: none;
+	color:#000;
+	margin-right: 10px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+}
+header{
+
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+background-image:url(./image/J6.jpg);
+background-size:cover;
+color:red;
+padding: 40px;
+
+}
+
+header h1
+{
+font-family: 'Playfair display',sans-serif;
+font-size: 50px;
+}
+
+header h4
+ 
+{
+margin-top: 20px;
+font-size: 20px;
+text-align: center;
+border-bottom:1px solid #fff;
+}
+header button
+{
+padding:10px 20px ;
+background-color:#000;
+color:#fff ;
+border: none;
+font-size: 20px;
+font-family: 'Playfair display',sans-serif;
+outline: none;
+cursor: pointer;
+}
+
+.main{
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(image/J7.jpg);
+	background-size: cover;
+    }
+.main .content .card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.main .content .card .left
+    {
+    	flex: 0 0 30%;
+    	padding: 20px;
+    	background-color:red;
+    	color: #fff;
+    }
+
+    }
+
+    .main .content .card.right{
+    	flex: 0 0 70px;
+    }
+
+    .main . content .card .right img
+
+   {
+   	height: 300px;
+   	width: 400px;
+   	margin-top: 50px;
+   }
+
+   footer
+   {
+margin-top: 40px;
+border-top: 5px solid #6f6f6f;
+background-color:blue;
+color: #fff;
+padding: 30px 100px;
+   }
+   footer h1 
+   {
+font-family: 'Playfair display',sans-serif;
+border-bottom: 1px solid #fff;
+width: 18%;
+padding-bottom: 5px;
+   }
+
+   footer .services
+   {
+   	margin-top: -10px;
+   	display: flex;
+   	flex-wrap: wrap;
+   }
+
+   footer .services .service 
+    {
+      margin-right:11%;
+      padding: 10px;
+   }
+
+   footer #contact
+   {
+color: rgb(181,181,181);
+
+   }
+
+
+
+@media screen and (max-width: 680px){
+	nav.onglets{
+		margin-left: 0px;
+		margin-bottom:20px;
+	}
+	.main .card
+	 {
+     margin: 10px;
+	}
+	.main .content .card .right img
+	{
+     height: 200px;
+     width: 100px;
+     margin-top:0px;
+
+	}
+	.main .content .card 
+	{
+     display: block;
+	}
+
+	footer
+	 {
+      margin: 30px;
+	}
+   .logo
+   {
+ margin: 0;
+   }
+
+}
