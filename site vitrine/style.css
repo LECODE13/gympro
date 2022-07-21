@@ -170,7 +170,13 @@ padding-bottom: 5px;
 color: rgb(181,181,181);
 
    }
+header .image
+{
+background-image: url(23.jpg);
 
+background-size:cover;
+height: 70px;
+}
 
 
 @media screen and (max-width: 680px){
